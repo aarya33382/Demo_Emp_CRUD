@@ -6,7 +6,7 @@ export default function Contextprovider({children})
 {
   const [isEdit,setIsEdit]=useState(false);
   const [allEmp,setallEmp]=useState([]);
-  const[employee,setEmployee]= useState({
+  const[employee,setEmployee]= useState({   
     id:0,
     name:"",
     age:0,
